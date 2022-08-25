@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selector</title>
+    <style>
+      header {
+        border: 10px solid green;
+      }
+      p {
+        color: red;
+      }
+      #page-header {
+        background: red;
+      }
+      .special-text {
+        font-size: 20px;
+        color: mediumslateblue;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="page-header">
+      <h1>안녕하세요!</h1>
+    </header>
+    <section>
+      <h2>섹션1</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p class="special-text">
+        Numquam modi exercitationem accusamus nihil delectus reprehenderit
+        dolores ut veniam officia, temporibus rem! Ipsum laboriosam
+        necessitatibus delectus quae!
+      </p>
+      <p>Deserunt asperiores quod possimus.</p>
+      <div class="special-text">div안에 있는 문단</div>
+    </section>
+    <section>
+      <h2>섹션2</h2>
+      <p class="special-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <p>
+        Numquam modi exercitationem accusamus nihil delectus reprehenderit
+        dolores ut veniam officia, temporibus rem! Ipsum laboriosam
+        necessitatibus delectus quae!
+      </p>
+      <p>Deserunt asperiores quod possimus.</p>
+    </section>
+    <p class="special-text">섹션의 형제 문단</p>
+  </body>
+</html>
